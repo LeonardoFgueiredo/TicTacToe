@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <title>Jogo da Velha - Js</title>
+    <link rel="shortcut icon" href="img.png" type="imagex/png" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Jogo da Velha</h1>
+
+      <img width="60px" src="img.png" alt="" srcset="" />
+      <div><h2 id="resposta"></h2></div>
+      <table>
+        <tr>
+          <td>
+            <button id="B00" onclick="verificar(0,0)"><label>9</label></button>
+          </td>
+          <td>
+            <button id="B01" onclick="verificar(0,1)"><label>9</label></button>
+          </td>
+          <td>
+            <button id="B02" onclick="verificar(0,2)"><label>9</label></button>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <button id="B10" onclick="verificar(1,0)"><label>9</label></button>
+          </td>
+          <td>
+            <button id="B11" onclick="verificar(1,1)"><label>9</label></button>
+          </td>
+          <td>
+            <button id="B12" onclick="verificar(1,2)"><label>9</label></button>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <button id="B20" onclick="verificar(2,0)"><label>9</label></button>
+          </td>
+          <td>
+            <button id="B21" onclick="verificar(2,1)"><label>9</label></button>
+          </td>
+          <td>
+            <button id="B22" onclick="verificar(2,2)"><label>9</label></button>
+          </td>
+        </tr>
+      </table>
+      
+      <div id="refresh" >
+        
+         <i class="fa-solid fa-rotate"></i>
+    </div>
+    <p>Leonardo de Oliveira Figueiredo ©2022</p>
+    <script
+      src="https://kit.fontawesome.com/30e4cb4618.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
